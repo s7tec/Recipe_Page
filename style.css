@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+html {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(30, 54%, 90%);
+}
+
+body h3,
+h1 {
+    font-family: "Young Serif", serif;
+    font-style: normal;
+}
+
+body p,
+li {
+    font-size: 11.5px;
+}
+
+.container {
+    padding-top: 1.5rem;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    font-family: "Outfit", serif;
+}
+
+.box-recipe {
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 500px;
+    padding: 2.5rem;
+}
+
+.box-recipe img {
+    width: 500px;
+    border-radius: 15px;
+}
+
+.box-recipe h3 {
+    color: hsl(14, 45%, 36%);
+
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.preparation h2 {
+    color: hsl(332, 51%, 32%);
+    font-size: 14px;
+    padding-left: 21px;
+}
+.preparation ul {
+   color: rgba(0, 0, 0, 0.493);
+}
+
+.preparation li::marker {
+    color: hsl(332, 51%, 32%);
+}
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+li {
+    padding-left:20px ;
+    padding-bottom: 8px;
+}
+
+.num {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.line {
+    border: none;
+    background-color: rgb(196, 199, 199);
+    height: 0.1px;
+}
+
+.table{
+    display: flex;
+    flex-direction: column; 
+    max-width: 300px; 
+    padding: 0; 
+    height: 28px;
+    
+}
+
+.itens-table {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 1px; 
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    justify-content: right;
+    padding: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+@media (max-width: 575px){
+    .box-recipe{
+        width: 250px;
+            
+    }
+    .box-recipe img {
+        width: 270px;
+    }
+    header h1 {
+        font-size: 20px;
+    }
+    
+}
