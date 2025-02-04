@@ -3,7 +3,7 @@
 ## Descrição
 Este projeto é uma página de receita simples para um omelete, criada como parte do desafio do Frontend Mentor. O objetivo é apresentar a receita de forma clara e visualmente atraente, utilizando HTML e CSS.
 
-![Recipe Preview](../Recipe_Page/images/image.png)
+![Recipe Preview](./images/image.png)
 
 ## Link Web
 [Frontend Mentor | Recipe Page](https://recipe-page-seven-gray.vercel.app/)
